@@ -12,6 +12,6 @@
 
 <p>{{serverCreatedStatus}}</p>  
 
-<div app-server></div>
-<div app-server></div>
+<div app-server *ngFor="let server or serverName"></div>
+
 
